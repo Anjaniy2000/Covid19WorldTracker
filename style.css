@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  min-width: 950px;
+  max-width: 1050px;
+
+  text-align: center;
+  border: 1px solid #777;
+  border-radius: 8px;
+}
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+h2 {
+  color: darkblue;
+}
+h3 {
+  margin: 10px 0;
+}
+form input,
+form button {
+  width: 300px;
+  height: 40px;
+  border: 2px solid #ccc;
+  padding: 0 4px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 24px;
+}
+form button {
+  width: 96px;
+}
+#display-country-name {
+  color: black;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.content {
+  margin: 8px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.content .box {
+  min-width: 192px;
+  margin: 8px;
+  border: 2px solid #ccc;
+  padding: 8px;
+  letter-spacing: 2px;
+}
+.content .box:hover {
+  background: #eee4;
+}
+.total h3,
+.total i,
+.total p {
+  color: black;
+  text-transform: uppercase;
+}
+.deaths h3,
+.deaths i,
+.deaths p {
+  color: black;
+  text-transform: uppercase;
+}
+.active h3,
+.active i,
+.active p {
+  color: crimson;
+  text-transform: uppercase;
+}
+.critical h3,
+.critical i,
+.critical p {
+  color: crimson;
+  text-transform: uppercase;
+}
+.recovered h3,
+.recovered i,
+.recovered p {
+  color: green;
+  text-transform: uppercase;
+}
+.chart {
+  margin-top: 32px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
